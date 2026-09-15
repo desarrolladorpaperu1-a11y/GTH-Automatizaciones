@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+aiohttp
+aiosmtplib
+google-auth
+gspread
+gspread-asyncio
