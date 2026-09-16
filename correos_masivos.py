@@ -56,9 +56,9 @@ SMTP_CONFIG = {
         "user": "frank.chavez@paperu.pe",
         "pass": os.getenv("SMTP_PASS_FRANK", "ZXs{(+P#3&wl"),
         "host": "mail.paperu.pe",
-        "port": 587,
-        "use_tls": False,
-        "start_tls": True,
+        "port": 465,
+        "use_tls": True,
+        "start_tls": False,
     },
     "jose": {
         "user": "jose.huacles@paperu.pe",
